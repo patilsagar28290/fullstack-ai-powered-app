@@ -13,8 +13,7 @@ function App() {
   
   return (
     <div>
-      <h1>Hello, World!</h1>
-      <p>{msg}</p>
+      <p className="font-bold p-4 text-3xl">{msg}</p>
     </div>
   )
 }
