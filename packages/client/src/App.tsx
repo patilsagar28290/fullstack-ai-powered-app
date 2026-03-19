@@ -12,8 +12,9 @@ function App() {
   }, []);
   
   return (
-    <div>
+    <div className="p-4">
       <p className="font-bold p-4 text-3xl">{msg}</p>
+      <button className="bg-blue-500 text-white px-4 py-2 rounded" onClick={() => alert('Button clicked!')}>Click Me</button>
     </div>
   )
 }
